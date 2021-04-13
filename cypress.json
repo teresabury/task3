@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://localhost:8443/",
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 30000,
+  "integrationFolder": "cypress/integration",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-output-[hash].xml"
+  },
+  "retries": 0,
+  "testFiles": "**.spec.js",
+  "viewportWidth": 1440,
+  "viewportHeight": 900
+}
